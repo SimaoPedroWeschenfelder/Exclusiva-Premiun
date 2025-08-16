@@ -1,0 +1,45 @@
+.gallery {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.car-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.car-image {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.car-image:hover {
+  transform: scale(1.05);
+}
+
+.car-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 24px;
+}
