@@ -13,7 +13,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           style={styles.link}
         >
-          Simao P Wescjenfelder
+          Simao P. Weschenfelder
         </a>
       </p>
     </footer>
