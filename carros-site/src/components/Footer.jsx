@@ -8,12 +8,12 @@ const Footer = () => {
       <p style={styles.text}>
         Desenvolvido por{" "}
         <a
-          href="https://www.instagram.com/seu_usuario"
+          href="https://www.instagram.com/simao_wesinfi"
           target="_blank"
           rel="noopener noreferrer"
           style={styles.link}
         >
-          Simao 🚀
+          Simao P Wescjenfelder
         </a>
       </p>
     </footer>
