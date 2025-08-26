@@ -14,7 +14,7 @@ const ZapButton = () => {
       rel="noopener noreferrer"
       style={{
         position: "fixed",
-        bottom: "20px",
+        bottom: "90px",
         right: "20px",
         width: "60px",
         height: "60px",
@@ -33,7 +33,7 @@ const ZapButton = () => {
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
         alt="WhatsApp"
-        style={{ width: "30px", height: "30px" }}
+        style={{ width: "30px", height: "60px" }}
       />
     </a>
   );

@@ -5,22 +5,39 @@ const Footer = () => {
         © {new Date().getFullYear()} Exclusiva Premium. Todos os direitos
         reservados.
       </p>
-      <p style={styles.text}>Desenvolvido por Simao 🚀</p>
+      <p style={styles.text}>
+        Desenvolvido por{" "}
+        <a
+          href="https://www.instagram.com/seu_usuario"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={styles.link}
+        >
+          Simao 🚀
+        </a>
+      </p>
     </footer>
   );
 };
 
 const styles = {
   footer: {
+    width: "100%", // usa 100% do container pai
     backgroundColor: "#111",
     color: "#ccc",
     textAlign: "center",
-    padding: "20px",
-    marginTop: "40px",
+    padding: "20px 0",
     fontSize: "0.9rem",
+    display: "block",
+    boxSizing: "border-box",
   },
   text: {
     margin: "4px 0",
+  },
+  link: {
+    color: "#ccc",
+    textDecoration: "underline",
+    fontWeight: "bold",
   },
 };
 

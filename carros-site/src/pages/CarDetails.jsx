@@ -9,6 +9,15 @@ import rubicon3 from "../assets/rubicon 3.jpg";
 import hb20_1 from "../assets/hb20 1.jpg";
 import hb20_2 from "../assets/hb20 2.jpg";
 import hb20_3 from "../assets/hb20 3.jpg";
+import Fusca_1 from "../assets/fusca 1.jpg";
+import Fusca_2 from "../assets/fusca 2.jpg";
+import Fusca_3 from "../assets/fusca 3.jpg";
+import Fusca_4 from "../assets/fusca 4.jpg";
+import Fusca_5 from "../assets/fusca 5.jpg";
+import Fusca_6 from "../assets/fusca 6.jpg";
+import Fusca_7 from "../assets/fusca 7.jpg";
+import Fusca_8 from "../assets/fusca 8.jpg";
+import Fusca_9 from "../assets/fusca 9.jpg";
 
 const cars = [
   {
@@ -18,6 +27,7 @@ const cars = [
     description:
       "Ar condicionado, Motor 2.0 Turbo 272cv, Câmbio automático de 8 marchas 4x4 com reduzida, Capota removível, pneus off-road, Controle de tração e estabilidade, Central multimídia com Apple CarPlay/Android Auto, Bancos em couro. E muito mais. VENDE, TROCA, FINANCIA.",
     images: [rubicon1, rubicon2, rubicon3],
+    categoria: "Off-road",
   },
   {
     id: "hb20",
@@ -26,6 +36,35 @@ const cars = [
     description:
       "Ano 2022, Ar condicionado, Direção hidráulica, Vidros elétricos, Trava elétrica, Muito econômico, Pneus novos, Multimídia, Câmera de ré. E muito mais...",
     images: [hb20_1, hb20_2, hb20_3],
+    categoria: "Hatch",
+  },
+  {
+    id: "Fusca",
+    name: " VOLKSVAGEM Fusca",
+    price: "29.900",
+    description: `Ano:1974,
+
+    Motor: 1300 
+
+    Pneus:ok
+
+    Manual de Proprietario
+
+    otimo estado de conservação
+
+    chave reserva de 2 Dono !!!`,
+    images: [
+      Fusca_1,
+      Fusca_2,
+      Fusca_3,
+      Fusca_4,
+      Fusca_5,
+      Fusca_6,
+      Fusca_7,
+      Fusca_8,
+      Fusca_9,
+    ],
+    categoria: "Clássico",
   },
 ];
 
